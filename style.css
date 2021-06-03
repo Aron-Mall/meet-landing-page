@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
 :root {
   --teal: #4d96a9;
   --purple: #855fb1;
@@ -31,6 +30,7 @@ main {
   grid-template-columns: 100vw;
   grid-template-rows: 0.2fr 1.1fr 0.3fr 0.5fr 1fr 0.3fr 1fr;
   overflow: hidden;
+  
 }
 
 header {
@@ -85,7 +85,7 @@ section.hero img:last-child {
 
 #two {
   grid-template-rows: 6/7;
-  z-index: 1;
+  z-index: 99;;
 }
 
 .lollipop .circle {
@@ -152,13 +152,13 @@ footer {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80%;
 }
 
 .footer-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* width: 1110px;  */
   margin: 0 auto;
   height: 100%;
   color: #fafafa;
@@ -169,23 +169,39 @@ footer {
   font-size: 3rem;
   line-height: 2.5rem;
   max-width: 350px;
+  z-index: 99;
+
 }
 
-.footer-info p:first-child {
+.footer-info p:first-of-type {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
   max-width: 350px;
+  z-index: 99;
+
+}
+
+.overlay{
+  position:absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--teal);
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
 
 .btn {
-  padding: 0.9rem 1.5rem;
+  padding: 1rem 1.5rem;
   font-weight: 900;
   border-radius: 25px;
   border: 0;
   outline: none;
   color: white;
   cursor: pointer;
+  z-index: 99;
 }
 
 .btn span {
