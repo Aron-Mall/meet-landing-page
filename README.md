@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Aron-Mall/meet-landing-page](https://github.com/Aron-Mall/meet-landing-page)
 - Live Site URL: [https://aron-mall.github.io/meet-landing-page/](https://aron-mall.github.io/meet-landing-page/)
 
 ## My process
