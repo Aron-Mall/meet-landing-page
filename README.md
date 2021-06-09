@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Aron-Mall/meet-landing-page](https://github.com/Aron-Mall/meet-landing-page)
+- Solution URL: [https://www.frontendmentor.io/solutions/grid-and-flex-o5xYITh0S](https://www.frontendmentor.io/solutions/grid-and-flex-o5xYITh0S)
 - Live Site URL: [https://aron-mall.github.io/meet-landing-page/](https://aron-mall.github.io/meet-landing-page/)
 
 ## My process
